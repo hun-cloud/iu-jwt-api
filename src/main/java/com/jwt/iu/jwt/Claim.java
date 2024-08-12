@@ -18,6 +18,9 @@ public class Claim {
     // userAgent
     private String userAgent;
 
+    public Claim() {
+    }
+
     public Claim(String subject, Date issuedAt, Date expiration, String ip, String userAgent) {
         assertNotNull(subject);
         assertNotNull(expiration);

@@ -10,7 +10,7 @@ public class Header {
 
     public Header(SignatureAlgorithm alg, String typ) {
         assertNotNull("SignatureAlgorithm is not null", alg);
-        assertNotNull("type is not null", alg);
+        assertNotNull("type is not null", typ);
         this.alg = alg;
         this.typ = typ;
     }
